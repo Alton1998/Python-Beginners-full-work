@@ -14,3 +14,22 @@ print(f'Values:{d.values()}')
 
 # Getting a value from the key
 print(f'Name : {d["pet"]}')
+# print(f'Test:{d["bla"]}') # Will throw an error if the key is not found
+
+# Add an item
+d['trick'] = 'sit'
+print(d)
+d['trick'] = 'roll over'
+print(d)
+
+# Removing an item
+del d['trick']
+print(d)
+
+# Testing for Existence
+if 'name' in d:
+    print(d['name'])
+
+# Looping
+for key in d.keys():
+    print(f'{key}={d[key]}')
