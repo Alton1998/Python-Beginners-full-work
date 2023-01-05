@@ -74,3 +74,23 @@ while True:  # Loop Forever
 print('Complete!')
 
 # For loop and range
+
+# For loop on lists, tuples, sets
+
+x = [1, 2, 3, 4]  # List
+
+t = (1,2,3,4) # Tuple
+
+s = {1,2,3,4} # Set
+
+print("List:")
+for i in x:
+    print(f'i={x}')
+
+print("Tuple")
+for i in t:
+    print(f'i={i}')
+
+print("Set")
+for i in x:
+    print(f'i = {i}')
