@@ -79,9 +79,9 @@ print('Complete!')
 
 x = [1, 2, 3, 4]  # List
 
-t = (1,2,3,4) # Tuple
+t = (1, 2, 3, 4)  # Tuple
 
-s = {1,2,3,4} # Set
+s = {1, 2, 3, 4}  # Set
 
 print("List:")
 for i in x:
@@ -94,3 +94,25 @@ for i in t:
 print("Set")
 for i in x:
     print(f'i = {i}')
+
+# For loop on Dictionaries
+x = dict(Bryan=46, Tammy=48, Heather=28, Chris=30)
+print(x)
+
+for k in x.keys():
+    print(f'Keys:{k}')
+
+for k, v in x.items():
+    print('f Key:{k}')
+    print('f Value:{v}')
+
+# Range
+x = range(5)
+for i in x:
+    print(f'Range:{i}')
+
+# Range start stop and step
+
+x = range(5, 20, 3)
+for i in x:
+    print(f'Range1:{i}')
