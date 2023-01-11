@@ -39,7 +39,7 @@ display(outbytes)
 filename = 'test.txt'
 writeBytes(filename,outbytes)
 
-print(readBytes(filename))
+display(readBytes(filename))
 
 
 
